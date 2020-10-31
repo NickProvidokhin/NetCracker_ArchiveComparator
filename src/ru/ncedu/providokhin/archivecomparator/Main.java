@@ -1,6 +1,5 @@
 package ru.ncedu.providokhin.archivecomparator;
 
-import java.io.File;
 import java.util.ArrayList;
 
 public class Main {
@@ -10,10 +9,10 @@ public class Main {
              args) {
             filePaths.add(str);
         }
-        ReadArchive readArchive = new ReadArchive();
-        readArchive.toReadFilesName(filePaths);
-        readArchive.toReadNamesInArchive();
-        readArchive.archiveComparator();
+        Archive archive = new Archive();
+        archive.toReadFilesName(filePaths);
+        archive.toReadNamesInArchive();
+        archive.archiveComparator();
         System.out.println("TO DO");
 
 

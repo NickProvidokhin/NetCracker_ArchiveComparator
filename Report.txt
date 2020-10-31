@@ -1,0 +1,18 @@
+archive1.zip
+file1.txt
+file2.txt
+file3.txt
+file5.txt
+------------/////------------
+archive2.zip
+file1_1.txt
+file2.txt
+file4.txt
+file5.txt
+------------/////------------
+file1.txt Переименовали в file1_1.txt
+файлы одинаковые file2.txt file2.txt
+file3.txt Был удален 
+файл во втором архиве отредактировали file5.txt file5.txt
+Во второй архив добавили файл(ы)
+file4.txt
